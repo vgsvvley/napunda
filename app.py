@@ -7,8 +7,7 @@ from flask import Flask, request, render_template_string
 app = Flask(__name__)
 
 DISCORD_INVITE_URL = os.environ.get("DISCORD_INVITE_URL", "https://discord.gg/AU3zzD7U")
-DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "https://discord.com/api/webhooks/1489369120636928113/8Kk_J2h3YzI-oPB2ywpF6DPdRExiwlWt5E3fPTT2lMjL85IvIADe2bnpjWRNOgXuX8uT)
-
+DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "https://discord.com/api/webhooks/1489369120636928113/8Kk_J2h3YzI-oPB2ywpF6DPdRExiwlWt5E3fPTT2lMjL85IvIADe2bnpjWRNOgXuX8uT")
 FINGERPRINT_HTML = """
 <!DOCTYPE html>
 <html>
